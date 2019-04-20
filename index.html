@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Nota de Debito</title>
+  <!--la coneccion con bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="css/estilos.css">
+  </head>
+
+<body>
+  <center>
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="#">Inicio</a></li>
+      <li class="breadcrumb-item"><a href="#">Nosotro</a></li>
+      <li class="breadcrumb-item"> <a href="#">Contactos</a></li>
+    </ol>
+  </nav>
+  <section id="contenido">
+
+  <label for="nombre"class="Nota" >Numero de Cuenta</label><br>
+  <input  class="numero"type="numero" name="Nota de Debito" value="">
+  </center>
+  <br><br>
+  <label for="Nombre del Cliente" minlength="5" maxlength="5">Nombre del Cliente</label>
+  <input type="password" name="pass" placeholder="Nombre de Cliente" minlength="11" required>
+  <label for="Telefono">Telefono</label>
+  <input type="text" name="telefono" value="">
+  <br>
+  <label for="por concepto">Por Concepto</label><br/>
+  <textarea name="mejorar" id="mejorar" rows="10"  cols="50" >
+  </textarea>
+  <!--elige la ciudad del cliente-->
+  <p>
+  <label for="pais" >Ciudad</label>
+  <select name="Ciudad" id="Ciudad">
+  <option value="Mao">Mao</option>
+  <option value="Santiago">Santiago</option>
+  <option value="Santo Domingo">Santo Domingo</option>
+  <option value="Montecristi">Montecristi</option>
+  <option value="Puerto Plata">Puerto Plata<Esoption>
+  <option value="Moncion">Moncion</option>
+  </select><br/>
+  <br>
+  </p>
+  <center>
+  <div class="btn-group" role="group" aria-label="Basic example">
+    <button type="button" class="btn btn-secondary">Guardar</button>
+    <button type="button" class="btn btn-secondary">Imprimir</button>
+  </div></center>
+  </section>
+<footer>
+  <p>Alvaro Rodriguez</p>
+</footer>
+  </body>
+</html>
